@@ -1,0 +1,67 @@
+{
+  "initialSceneId": "atap-depan",
+  "scenes": [
+    {
+      "id": "atap-depan",
+      "title": "Bagian Depan",
+      "image": "atap/atap-depan.jpg",
+      "preview": "door-icon.jpg",
+      "doors": [
+        {
+          "sceneId": "atap-belakang",
+          "location": {
+            "left": 200,
+            "top": 450
+          }
+        }
+      ],
+      "hints": [
+        {
+          "description": "Masih Berantakan",
+          "location": {
+            "left": 2250,
+            "top": 400
+          }
+        },
+        {
+          "description": "Kos-kosan cewe. cakep2 loh",
+          "location": {
+            "left": 3550,
+            "top": 430
+          }
+        },
+        {
+          "description": "Ini nanti buat meja hidroponik",
+          "location": {
+            "left": 4220,
+            "top": 700
+          }
+        }
+      ]
+    },
+    {
+      "id": "atap-belakang",
+      "title": "Bagian Belakang",
+      "image": "atap/atap-belakang.jpg",
+      "preview": "door-icon.jpg",
+      "doors": [
+        {
+          "sceneId": "atap-depan",
+          "location": {
+            "left": 2300,
+            "top": 610
+          }
+        }
+      ],
+      "hints": [
+        {
+          "description": "Awas hati2, buka pintu langsung tangga",
+          "location": {
+            "left": 3250,
+            "top": 700
+          }
+        }
+      ]
+    }
+  ]
+}
